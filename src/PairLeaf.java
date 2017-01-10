@@ -1,5 +1,4 @@
 //PairLeaf.java
-//CS 202 Assignment #5
 //This is the Java class file containing the class for Pair Leaf node objects.
 //This file defines the Pair Leaf node class, which adds leaf node functionality to
 // Pair objects for use in a 2-3 tree data structure.
