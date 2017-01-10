@@ -1,5 +1,4 @@
 //Word.java
-//CS 202 Assignment #5
 //This is the Java class file containing the classes relating to language words.
 //The three classes defined in this file are the Word class, an abstract base class representing a language word,
 // the English Word class, representing a word in English, and the Dovahzul Word class, representing a word in
