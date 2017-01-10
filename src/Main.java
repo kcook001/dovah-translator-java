@@ -1,13 +1,12 @@
 //Main.java
-//CS 202 Assignment #5
-//The is the client class file for the Translator Program assignment.  This program reads in a supplied,
+//The is the client class file for the Translator Program.  This program reads in a supplied,
 // specially-formatted text file of word cognate pairs from English and another language and uses this data
 // to translate common words or phrases from English to the non-English language.  By default the program
 // translates to Dovahzul, the language spoken by the dragons of Skyrim, but a properly-formatted text file
 // for any language may be substituted.
 //Keith Cook, 03/06/2016
 
-// A QUICK NOTE TO THE GRADER:
+// A QUICK NOTE:
 //If you aren't familiar with the Elder Scrolls series of video games, the country of Skyrim is basically a
 // medieval fantasy sort of setting.  As per the assignment I have included several common modern travel phrases, but,
 // in general, keep this setting in mind when thinking of words to test.  You can also use the debug menu I've included to see
