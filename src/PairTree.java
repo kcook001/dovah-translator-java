@@ -1,5 +1,4 @@
 //PairTree.java
-//CS 202 Assignment #5
 //This is the Java class file containing the data structure and utility methods used in Assignment #5.
 //The two classes defined in this file are PairTree, which is a linear-linked list of arrays of word pairs data
 // structure class, and Translator, which extends PairTree and adds the client-accessible utility methods for
