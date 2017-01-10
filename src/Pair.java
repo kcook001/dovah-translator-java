@@ -1,5 +1,4 @@
 //Pair.java
-//CS 202 Assignment #5
 //This is the Java class file containing the class for Word Pair objects.
 //This file defines the Pair class, which represents an English word and a
 // non-English word with the same meaning.
