@@ -1,0 +1,4 @@
+German (incomplete: language swap tester)
+Hello,Hallo
+Good day,Guten Tag
+House,Haus
