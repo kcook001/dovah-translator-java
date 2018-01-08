@@ -39,6 +39,7 @@ public class Main {
         //If dictionary cannot be loaded, show error message and exit.
         if(!dictionary.exists()){
             System.out.println("The dictionary could not be loaded correctly.  The program will now terminate.");
+            scan.close();
             return;
         }
 
@@ -50,7 +51,7 @@ public class Main {
             System.out.println("Please enter the word or phrase you'd like to translate.");
             System.out.println("(or you can type \"debug\" for testing options)");
             System.out.print("English: ");
-            scan.useDelimiter("\\n");
+            //scan.useDelimiter("\\n");  //Not working properly
             toTranslate = scan.next();
             scan.nextLine();
 
@@ -88,6 +89,7 @@ public class Main {
         //Repeat as desired.
 
         //Nulls out the dictionary (aka, setting the cans by the street for the garbage collector)
+        scan.close();
         dictionary.removeAll();
     }
 }

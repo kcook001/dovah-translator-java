@@ -371,6 +371,7 @@ class Translator extends PairTree{
         } while(choice == '1' || choice == '2');
 
         System.out.println("Returning to "+ this.getLanguage() + " translator...");
+        //scan.close();  //Don't close the scanner here, causes an error when returning to the main program.
     }
 
     //Overloaded load function, kickstarts parent version.
